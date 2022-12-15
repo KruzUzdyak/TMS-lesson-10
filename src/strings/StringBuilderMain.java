@@ -31,5 +31,13 @@ public class StringBuilderMain {
         System.out.println("old " + sb);
         System.out.println("reversed " + reversed);
 
+        method(reversed);
+        System.out.println("reversed 2nd: " + reversed);
     }
+
+    private static void method(StringBuilder sb) {
+        sb.reverse();
+    }
+
+
 }
